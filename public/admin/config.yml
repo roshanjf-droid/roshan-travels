@@ -2,6 +2,7 @@ backend:
   name: github
   repo: roshanjf-droid/roshan-travels
   branch: main
+  auth_type: implicit # Bypasses Netlify Identity redirect
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
