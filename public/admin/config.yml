@@ -3,9 +3,6 @@ backend:
   repo: roshanjf-droid/roshan-travels
   branch: main
 
-# Local development workflow flag
-local_backend: true
-
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
