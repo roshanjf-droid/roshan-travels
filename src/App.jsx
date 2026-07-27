@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+// 1. IMPORT THE TRAVEL MAP HERE
+import TravelMap from './components/TravelMap';
 
 const TRIPS = [
   {
@@ -99,6 +101,9 @@ export default function App() {
       {/* MAIN CONTAINER */}
       <main className="max-w-5xl mx-auto px-6 mt-10">
         
+        {/* 2. INTERACTIVE TRAVEL MAP COMES IN RIGHT HERE */}
+        <TravelMap />
+
         {/* FILTER BUTTONS */}
         <div className="flex items-center justify-between flex-wrap gap-4 mb-8 pb-4 border-b border-slate-800">
           <h2 className="text-2xl font-bold text-white flex items-center gap-2">
